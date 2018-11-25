@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Header</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <div class="LOGO">
+                <img src="https://cdn.svgporn.com/logos/apache_cloudstack.svg" alt="logo">
+            </div>
+            <div>
+                <ul class="menu menu--secondary hidden-mobile js-menu-item" data-menu-order="1">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Политика конфиденциальности</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Размещение рекламы</a>
+                    </li>
+                </ul>
+                <ul class="menu hidden-mobile js-menu-item" data-menu-order="0">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">О нас</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Каталог</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn header__btn hidden-mobile js-menu-item" type="button" data-menu-order="2">Корзина</button>
+            <div class="header__burger visible-mobile js-modal-trigger" id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <section>
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo praesentium? Eveniet consequatur natus suscipit harum sit doloribus, cumque saepe provident possimus voluptatibus doloremque atque eum quibusdam. Adipisci, laborum
+                rem.
+            </p>
+        </section>
+        <section>
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo praesentium? Eveniet consequatur natus suscipit harum sit doloribus, cumque saepe provident possimus voluptatibus doloremque atque eum quibusdam. Adipisci, laborum
+                rem.
+            </p>
+        </section>
+        <section>
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo praesentium? Eveniet consequatur natus suscipit harum sit doloribus, cumque saepe provident possimus voluptatibus doloremque atque eum quibusdam. Adipisci, laborum
+                rem.
+            </p>
+        </section>
+        <section>
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo praesentium? Eveniet consequatur natus suscipit harum sit doloribus, cumque saepe provident possimus voluptatibus doloremque atque eum quibusdam. Adipisci, laborum
+                rem.
+            </p>
+        </section>
+        <section>
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo praesentium? Eveniet consequatur natus suscipit harum sit doloribus, cumque saepe provident possimus voluptatibus doloremque atque eum quibusdam. Adipisci, laborum
+                rem.
+            </p>
+        </section>
+        <section>
+            <h2>About us</h2>
+            <button type="button" class="js-modal-trigger">Открой модалочку про НАС</button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo praesentium? Eveniet consequatur natus suscipit harum sit doloribus, cumque saepe provident possimus voluptatibus doloremque atque eum quibusdam. Adipisci, laborum
+                rem.
+            </p>
+        </section>
+    </div>
+
+    <!-- ДЗ: Сделайте так, чтобы в зависимости от того на
+  какой из тригеров клацнули - такой контент вы
+  внутри модалки и показывали
+  Подсказка: используйте data атрибуты у кнопок
+  и как то назовите секции в модалке :)  -->
+    <div class="modal js-modal">
+        <!-- Тут секция про меню -->
+        <div class="mobile-menu js-mobile-menu">
+        </div>
+        <!-- А вот тут секция про нас -->
+        <div class="modal-about-us">
+            ТУТ КОНТЕНТ ПРО НАС
+        </div>
+        <div class="modal__controllers">
+            <div class="modal__close js-modal-close">X</div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
