@@ -181,6 +181,10 @@ ul {
     background: #333;
 }
 
+.hide {
+    display: none;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 
